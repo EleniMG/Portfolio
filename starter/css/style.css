@@ -21,3 +21,8 @@ h6 {
 p {
   margin: 0;
 }
+
+header img {
+  height: auto;
+  max-width: 50%;
+}
