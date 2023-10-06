@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  background-color: rgb(197, 224, 255);
 }
 
 body {
@@ -22,7 +23,20 @@ p {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited{
+  color: black;
+}
+
 header img {
   height: auto;
   max-width: 50%;
+}
+
+.nav-bar, .contact-links{
+  display: inline;
 }
