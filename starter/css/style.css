@@ -65,9 +65,20 @@ header img {
   display:grid;
   height: auto; 
   width: 90%;
-  grid-template-rows: 60% 20% 20%;
+  grid-template-rows: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas: "calculator calculator"
+  "calculator calculator"
   "weather-app accessibility-refactoring"
   "sign-up-form etch-a-sketch";
+}
+
+#main-project-image{
+  height: auto;
+  width: 800px;
+}
+
+.small-project-image{
+  height: auto;
+  width: 450px;
 }
