@@ -27,6 +27,9 @@ p {
 
 a{
   text-decoration: none;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  font-weight: bold;
   color:black;
 }
 
@@ -34,17 +37,6 @@ a:visited{
   color: black;
 }
 
-.nav-bar, .contact-links{
-  display: inline;
-}
-
-.nav-bar{
-  padding-right: 250px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: underline;
-}
 
 h1{
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -64,6 +56,18 @@ h3{
 
 }
 
+/* Navigation bar */
+.nav-bar, .contact-links{
+  display: inline;
+}
+
+.nav-bar{
+  padding-right: 250px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 header{
   position: fixed;
@@ -78,6 +82,8 @@ header{
   justify-content: space-between;
 }
 
+
+/* About section */
 #about {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -140,4 +146,10 @@ header{
 .small-project-image{
   height: auto;
   width: 450px;
+}
+
+/* Contact Section */
+#contact-flex-container{
+  display: flex;
+  justify-content: space-around;
 }
