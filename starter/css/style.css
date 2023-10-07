@@ -40,3 +40,34 @@ header img {
 .nav-bar, .contact-links{
   display: inline;
 }
+
+#calculator{
+  grid-area: calculator;
+}
+
+#weather-app{
+  grid-area: weather-app;
+}
+
+#accessibility-refactoring{
+  grid-area: accessibility-refactoring;
+}
+
+#sign-up-form{
+  grid-area: sign-up-form;
+}
+
+#etch-a-sketch{
+  grid-area: etch-a-sketch;
+}
+
+#work-container{
+  display:grid;
+  height: auto; 
+  width: 90%;
+  grid-template-rows: 60% 20% 20%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "calculator calculator"
+  "weather-app accessibility-refactoring"
+  "sign-up-form etch-a-sketch";
+}
