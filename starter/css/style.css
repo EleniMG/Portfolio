@@ -4,7 +4,7 @@
 }
 
 body {
-  margin: 0;
+  margin: 50px;
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
@@ -32,14 +32,17 @@ a:visited{
   color: black;
 }
 
-header img {
-  height: auto;
-  max-width: 50%;
-}
-
 .nav-bar, .contact-links{
   display: inline;
 }
+
+#about > img{
+  height: auto;
+  width: 350px;
+  float: right;
+}
+
+/* Projects Grid */
 
 #calculator{
   grid-area: calculator;
