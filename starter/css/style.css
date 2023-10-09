@@ -10,6 +10,7 @@
 
 body {
   padding: 0;
+  margin: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -24,7 +25,6 @@ h6 {
 }
 
 p {
-  margin: 0;
   font-family:'Courier New', Courier, monospace;
   font-size: 30px;
   width: 70%;
@@ -94,7 +94,7 @@ header{
 }
 
 #about-flex-container > img{
-  height: auto;
+  height: 100%;
   width: 350px;
 }
 
@@ -103,6 +103,7 @@ header{
   flex-flow: row-reverse wrap;
   justify-content: space-around;
 }
+
 #work, #contact{
   padding-top: 100px;
 }
@@ -160,10 +161,12 @@ h3{
   font-family: 'Courier New', Courier, monospace;
   font-size: 30px;
   position: absolute;
-  top: 0;
+  bottom: 0;
   right:0;
-  border-bottom-left-radius: 3px;
+  border-radius: 5px;
   background-color: var(--light-blue);
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 
@@ -256,5 +259,21 @@ h3{
 
   .contact-links > a {
     font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 515px) {
+  h1{
+    padding-left: 5px;
+  }
+  
+
+  #about{
+    padding-top: 175px;
+  }
+
+  #work-container{
+    width: 100%;
   }
 }
